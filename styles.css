@@ -1,3 +1,75 @@
+@font-face {
+    font-family: Kavoon;
+    src: url(Kavoon-Regular.ttf);
+}
+* {
+    padding:0; 
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+}
+.banner{
+    font-family: Kavoon;
+    background-color: #e7c6ff;
+    padding-bottom: 1%;
+    border-bottom: solid black 1px;
+}
+
+a:hover{
+    text-decoration: #bbd0ff underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 4px;
+}
+body{
+    font-size: 26px;
+}
+body>div{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+    border-color: #bbd0ff;
+    background-color: #ffd6ff;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+footer{
+    background-color: #bbd0ff;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+h1{
+    text-align: center;
+    font-size: 42px;
+    padding: 1%;
+}
+html{
+    -webkit-text-stroke: black 1px;
+    color: #bbd0ff;
+    background-color: #c8b6ff;
+}
+nav{
+    font-size: 28px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+#bitmoji{
+    width: 300px;
+}
 #btd{
     width: 300px;
+}
+@media screen and (max-width: 600px) {
+    nav{
+        font-size: 28px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }
