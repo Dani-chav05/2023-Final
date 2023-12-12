@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--Dani Chavira, Exam 3-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> Railroad Historical Museum</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/3db1b1683a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <h2>Railroad Historical Museum INC of Springfield Missouri</h2>
+            <nav>
+                <a href="Index.html"><i class="fa-solid fa-house"></i>Home</a>
+                <a href="Calendar.html"><i class="fa-regular fa-calendar"></i>Calendar</a>
+                <a href="abtus.html"><i class="fa-solid fa-circle-info"></i>About Us</a>
+                <a href="Form.html"><i class="fa-regular fa-address-book"></i>Request A Tour</a>
+            </nav>
+        </header>
+        <div>
+            <form action="thankyou.html" method="get">
+                <!--text box, selection, radio, subimt-->
+                <div class="pad"><label for="fName">First Name:</label>
+                <input type="text" id="fName" name="fName">
+                <label for="lName">Last Name:</label>
+                <input type="text" id="lName" name="lName">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+                <br></div><div class="pad">
+                <label for="hour">What time?</label>
+                <input type="number" name="hour" id="hour" min="1" max="12">:
+                <input type="number" name="min" id="min" min="1" max="60">
+                <select name="TOD" id="TOD">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select><br></div><div class="pad">
+                <input type="checkbox" name="bday" id="bday">
+                <label for="bday">I am booking for a birthday party</label><br>
+                <label for="textarea">Please put the date for the reservation, as well as any extra requests</label><br>
+                <textarea id="textarea" name="xtrainfo" rows="5" cols="50" class="tpad"></textarea><br></div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <footer>
+            &#169; Dani Chavira
+        </footer>
+    </body>
+</html>

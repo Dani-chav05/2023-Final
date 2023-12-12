@@ -1,0 +1,5 @@
+#484349 jet
+#A5AE9E ash grey
+#D0DDD7 platinum
+#CCCC99 Sage
+#C81D25 fire engine red

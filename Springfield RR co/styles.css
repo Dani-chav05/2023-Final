@@ -1,0 +1,60 @@
+body{
+    background-color: #A5AE9E;
+}
+div{
+    background-color: #D0DDD7;
+    margin: 5px;
+    padding: 7px;
+}
+.pad{
+    padding: 2px;
+}
+footer{
+    background-color: #da3740;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+#tpad{
+    padding-top: 2px;
+}
+table{
+    border-style: solid;
+    border-color: #da3740;
+    border-width: 2px;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border-style: solid;
+    border-color: #da3740;
+    border-width: 2px;
+}
+nav{
+    text-align: right;
+    color: black;
+    font-size: larger;
+   
+}
+nav a{
+     padding-left: 2px;
+    padding-right: 2px;
+}
+a{
+    text-decoration: none;
+}
+@media only screen and (max-width: 700px){
+
+    body{
+        font-size: 14px;
+        max-width: 100%;
+    }
+    header {
+        padding: 5px;
+    }
+}
