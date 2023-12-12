@@ -1,0 +1,5 @@
+bbd0ff blue
+b8c0ff purple-blue
+c8b6ff lavender
+e7c6ff purple-pink
+ffd6ff pink
